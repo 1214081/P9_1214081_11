@@ -11,7 +11,7 @@ namespace P9_1214081.controller
 {
     internal class Koneksi
     {
-        string conectionstring = "Server=localhost;Database=ulbi;Uid=root;Pwd=;";//disini server local host saya ganti
+        string conectionstring = "Server=localhost;Port=3307;Database=ulbi;Uid=root;Pwd=;";//disini server local host saya ganti
         MySqlConnection kon;
 
         public SqlConnection GetConnection()

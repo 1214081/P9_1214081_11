@@ -16,7 +16,7 @@ namespace P9_1214081
     public partial class formDataMahasiswa : Form
     {
         Koneksi koneksi = new Koneksi();
-        M_mahasiswa m_mhs = new M_mahasiswa();
+        M_Mahasiswa m_mhs = new M_Mahasiswa();
         string id;
         public void tampil()
         {

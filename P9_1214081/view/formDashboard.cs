@@ -47,5 +47,19 @@ namespace P9_1214081.view
             form5.MdiParent = this;
             form5.Show();
         }
+
+        private void menuDataBarang_Click(object sender, EventArgs e)
+        {
+            formBarang barang = new formBarang();
+            barang.MdiParent = this;
+            barang.Show();
+        }
+
+        private void menuDataTransaksi_Click(object sender, EventArgs e)
+        {
+            formTransaksi transaksi = new formTransaksi();
+            transaksi.MdiParent = this;
+            transaksi.Show();
+        }
     }
 }

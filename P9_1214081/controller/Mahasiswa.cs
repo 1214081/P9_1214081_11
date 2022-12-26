@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P9_1214081.model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace P9_1214081.controller
         Koneksi koneksi = new Koneksi();
 
         //Method insert
-        public bool Insert(M_mahasiswa mahasiswa)
+        public bool Insert(M_Mahasiswa mahasiswa)
         {
             Boolean status = false;
             try
@@ -33,7 +34,7 @@ namespace P9_1214081.controller
         }
 
         //Method update
-        public bool Update(M_mahasiswa mahasiswa, string npm)
+        public bool Update(M_Mahasiswa mahasiswa, string npm)
         {
             Boolean status = false;
             try

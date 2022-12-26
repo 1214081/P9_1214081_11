@@ -34,8 +34,11 @@
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAboutMe = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuDataTransaksi = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDataTransaksix = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDataNilai = new System.Windows.Forms.ToolStripMenuItem();
+            this.tugasPraktikum11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDataBarang = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDataTransaksi = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +47,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuHelp,
-            this.menuDataTransaksi});
+            this.menuDataTransaksix,
+            this.tugasPraktikum11ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1584, 24);
@@ -89,20 +93,43 @@
             this.menuAboutMe.Text = "About Me";
             this.menuAboutMe.Click += new System.EventHandler(this.menuAboutMe_Click);
             // 
-            // menuDataTransaksi
+            // menuDataTransaksix
             // 
-            this.menuDataTransaksi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuDataTransaksix.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuDataNilai});
-            this.menuDataTransaksi.Name = "menuDataTransaksi";
-            this.menuDataTransaksi.Size = new System.Drawing.Size(93, 20);
-            this.menuDataTransaksi.Text = "Data Transaksi";
+            this.menuDataTransaksix.Name = "menuDataTransaksix";
+            this.menuDataTransaksix.Size = new System.Drawing.Size(93, 20);
+            this.menuDataTransaksix.Text = "Data Transaksi";
             // 
             // menuDataNilai
             // 
             this.menuDataNilai.Name = "menuDataNilai";
-            this.menuDataNilai.Size = new System.Drawing.Size(125, 22);
+            this.menuDataNilai.Size = new System.Drawing.Size(180, 22);
             this.menuDataNilai.Text = "Data Nilai";
             this.menuDataNilai.Click += new System.EventHandler(this.menuDataNilai_Click_1);
+            // 
+            // tugasPraktikum11ToolStripMenuItem
+            // 
+            this.tugasPraktikum11ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuDataBarang,
+            this.menuDataTransaksi});
+            this.tugasPraktikum11ToolStripMenuItem.Name = "tugasPraktikum11ToolStripMenuItem";
+            this.tugasPraktikum11ToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
+            this.tugasPraktikum11ToolStripMenuItem.Text = "Tugas Praktikum 11";
+            // 
+            // menuDataBarang
+            // 
+            this.menuDataBarang.Name = "menuDataBarang";
+            this.menuDataBarang.Size = new System.Drawing.Size(180, 22);
+            this.menuDataBarang.Text = "Data Barang";
+            this.menuDataBarang.Click += new System.EventHandler(this.menuDataBarang_Click);
+            // 
+            // menuDataTransaksi
+            // 
+            this.menuDataTransaksi.Name = "menuDataTransaksi";
+            this.menuDataTransaksi.Size = new System.Drawing.Size(180, 22);
+            this.menuDataTransaksi.Text = "Data Transaksi";
+            this.menuDataTransaksi.Click += new System.EventHandler(this.menuDataTransaksi_Click);
             // 
             // formDashboard
             // 
@@ -131,7 +158,10 @@
         private System.Windows.Forms.ToolStripMenuItem menuExit;
         private System.Windows.Forms.ToolStripMenuItem menuHelp;
         private System.Windows.Forms.ToolStripMenuItem menuAboutMe;
-        private System.Windows.Forms.ToolStripMenuItem menuDataTransaksi;
+        private System.Windows.Forms.ToolStripMenuItem menuDataTransaksix;
         private System.Windows.Forms.ToolStripMenuItem menuDataNilai;
+        private System.Windows.Forms.ToolStripMenuItem tugasPraktikum11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menuDataBarang;
+        private System.Windows.Forms.ToolStripMenuItem menuDataTransaksi;
     }
 }

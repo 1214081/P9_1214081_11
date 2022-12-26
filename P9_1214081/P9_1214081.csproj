@@ -88,7 +88,16 @@
     <Compile Include="controller\Koneksi.cs" />
     <Compile Include="controller\Mahasiswa.cs" />
     <Compile Include="controller\Nilai.cs" />
+    <Compile Include="controller\Tugas_Praktikum_11.cs" />
+    <Compile Include="model\M_Barang.cs" />
+    <Compile Include="model\M_Transaksi.cs" />
     <Compile Include="model\N_Nilai.cs" />
+    <Compile Include="view\formBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\formBarang.Designer.cs">
+      <DependentUpon>formBarang.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\formDataMahasiswa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +131,12 @@
     <Compile Include="view\formNilaiMahasiswa.Designer.cs">
       <DependentUpon>formNilaiMahasiswa.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\formTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\formTransaksi.Designer.cs">
+      <DependentUpon>formTransaksi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -132,6 +147,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="view\formBarang.resx">
+      <DependentUpon>formBarang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\formDataMahasiswa.resx">
       <DependentUpon>formDataMahasiswa.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\formNilaiMahasiswa.resx">
       <DependentUpon>formNilaiMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\formTransaksi.resx">
+      <DependentUpon>formTransaksi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
